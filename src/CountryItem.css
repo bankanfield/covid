@@ -1,0 +1,25 @@
+
+.country-item {
+    display: inline-block;
+    width: calc(100%/3);
+    text-align: center;
+    padding: 30px;
+    font-size: 16px;
+}
+
+.name {
+    white-space: nowrap;
+    color: #90e36c;
+}
+.timezone {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.ccy {
+    white-space: nowrap;
+    color: #939393;
+}
+.shadow {
+    box-shadow: inset 0 0 10px #000000;
+}
